@@ -1,0 +1,24 @@
+{
+  "name": "basicsocialnetwork",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "debug": "nodemon --inspect-brk app.js"
+  },
+  "keywords": [],
+  "author": "Slavi Shtipkov",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "mongoose": "^5.4.19",
+    "morgan": "~1.9.0",
+    "nodemon": "^1.18.10"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}

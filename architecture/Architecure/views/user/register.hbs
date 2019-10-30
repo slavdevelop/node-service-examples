@@ -1,0 +1,19 @@
+<form action="/users/register" method="post">
+    <label for="email">Email</label>
+    <input type="email" name="email" pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$">
+    <br>
+    
+    <label for="password">Password</label>
+    <input type="password" name="password">
+    <br>
+
+    <label for="firstName">First Name</label>
+    <input type="text" name="firstName" minLength="2" maxlength="30">
+    <br>
+    
+    <label for="lastName">Last Name</label>
+    <input type="text" name="lastName" minLength="2" maxlength="30">
+    <br>
+
+    <button type="submit">Register</button>
+</form>
